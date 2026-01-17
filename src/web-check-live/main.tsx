@@ -1,7 +1,6 @@
-import * as ReactRouterDOM from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { StaticRouter } from "react-router-dom/server";
 import App from "./App.tsx";
-
-const { BrowserRouter, StaticRouter } = ReactRouterDOM;
 
 export default ({ pathname }: { pathname: string }) => (
     import.meta.env.SSR
