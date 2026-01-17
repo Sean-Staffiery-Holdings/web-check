@@ -1,8 +1,6 @@
 import styled from '@emotion/styled';
 import type { ReactNode } from 'react';
-import * as ReactRouterDOM from 'react-router-dom';
-
-const { Link } = ReactRouterDOM;
+import { Link } from 'react-router-dom';
 
 import { StyledCard } from 'web-check-live/components/Form/Card';
 import Heading from 'web-check-live/components/Form/Heading';

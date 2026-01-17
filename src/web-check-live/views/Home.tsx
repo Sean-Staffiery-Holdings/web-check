@@ -1,9 +1,6 @@
 import styled from '@emotion/styled';
 import { type ChangeEvent, type FormEvent, useState, useEffect } from 'react';
-import * as ReactRouterDOM from 'react-router-dom';
-import type { NavigateOptions } from 'react-router-dom';
-
-const { Link, useNavigate, useLocation } = ReactRouterDOM;
+import { Link, useNavigate, useLocation, type NavigateOptions } from 'react-router-dom';
 
 import Heading from 'web-check-live/components/Form/Heading';
 import Input from 'web-check-live/components/Form/Input'
