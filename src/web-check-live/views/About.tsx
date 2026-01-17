@@ -1,8 +1,6 @@
 import styled from '@emotion/styled';
 import { useEffect } from 'react';
-import * as ReactRouterDOM from 'react-router-dom';
-
-const { useLocation } = ReactRouterDOM;
+import { useLocation } from 'react-router-dom';
 
 import colors from 'web-check-live/styles/colors';
 import Heading from 'web-check-live/components/Form/Heading';
